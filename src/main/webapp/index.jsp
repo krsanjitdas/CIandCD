@@ -12,6 +12,12 @@
   <input type="submit" value="Submit">
 </form>
 
+  
+  <h1>The button Element</h1>
+
+<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+  
+  
 <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 </body>
 </html>
