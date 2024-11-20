@@ -5,7 +5,7 @@ LABEL maintainer="your-email@example.com"
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy the WAR file to Tomcat's webapps directory
-COPY target/app.war /usr/local/tomcat/webapps/app.war
+COPY target/CIandCD.war /usr/local/tomcat/webapps/app.war
 
 # Expose port 8080 for the Tomcat container
 EXPOSE 8080
