@@ -9,7 +9,7 @@
 ## Start Tomcat
 #CMD ["catalina.sh", "run"]
 
-FROM OpenJDK:8
+FROM openjdk:8
 EXPOSE 8080
 ADD target/CIandCD.war CIandCD.war
 ENTRYPOINT ["java","-jar","/CIandCD.war"]
