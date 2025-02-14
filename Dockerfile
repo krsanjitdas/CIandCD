@@ -10,6 +10,6 @@
 #CMD ["catalina.sh", "run"]
 
 FROM openjdk:11
-EXPOSE 8081
+EXPOSE 8080
 ADD target/CIandCD.war CIandCD.war
 ENTRYPOINT ["java","-jar","/CIandCD.war"]
