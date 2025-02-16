@@ -56,4 +56,14 @@ pipeline {
             }
         }
     }
+       post {
+        success {
+            echo "Build Success: ${env.JOB_NAME} #${env.BUILD_NUMBER}"
+                     
+        }
+        failure {
+            echo "Build Failed: ${env.JOB_NAME} #${env.BUILD_NUMBER}"
+                   
+        }
+    }
 }
