@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>Hello World! Thanks Staging Server </h2>
+<h2>Hello World! Thanks Development Server </h2>
 
 <h2>HTML Forms testing ok check webhook testing</h2>
 
