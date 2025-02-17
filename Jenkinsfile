@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('CODE CLONE') {
             steps {
-                git branch: 'dev', url: 'https://github.com/krsanjitdas/CIandCD.git'
+                git branch: 'dev', credentialsId: 'ba67893d-87cc-401c-a8b7-f076395e0c8d', url: 'https://github.com/krsanjitdas/CIandCD.git'
             }
         }
         stage('CODE COMPILE') {
